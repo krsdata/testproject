@@ -1,0 +1,9 @@
+root@ip-10-1-2-48:~# sudo service iptables-persistent start
+root@ip-10-1-2-48:~# apt install iptables
+root@ip-10-1-2-48:~# sudo apt install iptables-persistent
+root@ip-10-1-2-48:~# /etc/init.d/fail2ban status -l
+root@ip-10-1-2-48:~# sudo apt-get install libapache2-mod-evasive
+root@ip-10-1-2-48:~# apachectl -M | grep evasive
+root@ip-10-1-2-48:~# apt-get install libapache2-mod-evasive -y
+
+root@ip-10-1-2-48:~# apt install [block-all-dem-noobs
